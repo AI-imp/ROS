@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 # 读取图片
-image = cv2.imread(r'E:\cource\u3exercise\img.png')
+image = cv2.imread('img.png')
 # 定义黑色的范围
 lower_black = np.array([0, 0, 0], dtype=np.uint8)
 upper_black = np.array([30, 30, 30], dtype=np.uint8)
