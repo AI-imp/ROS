@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import labelme
-f = open(r'E:\cource\u3exercise\data\CE3_BMYK_PCAML-C-041_SCI_N_20140113194426_20140113194426_0008_A.2C', 'rb')
+f = open('CE3_BMYK_PCAML-C-041_SCI_N_20140113194426_20140113194426_0008_A.2C', 'rb')
 data = f.read()
 byte_array = bytearray(data[len(data)-2352 * 1728 * 3 : ])
 numpy_array = np.frombuffer(byte_array,
